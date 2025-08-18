@@ -1,4 +1,14 @@
-# Decisiones
+# Decisiones del trabajo practico
+
+## Configuración inicial
+
+Configuré mi identidad global en Git:
+
+- user.name = "Tu Nombre"
+- user.email = "tuemail@ejemplo.com"
+  Esto asegura trazabilidad en los commits.
+
+## Estrategia de ramas
 
 Cree la rama "development" desde main, para ordenar el trabajo que esta en desarrollo, entonces queda siempre
 estable la rama main y en development se integran las funcionalidades en curso.
@@ -6,6 +16,7 @@ estable la rama main y en development se integran las funcionalidades en curso.
 Cree la rama "feature/nueva-funcionalidad".
 Las ramas features nacen desde development y se integran con las diferentes features que se crean
 en development.
+Las ramas hotfix se crean desde main para resolver errores urgentes.
 
 Hice 2 commits atómicos:
 
