@@ -25,3 +25,10 @@ Hice 2 commits atómicos:
 2. Integrar la validación en el flujo principal.
    Es buena practica hacer un commit para cada archivo o cada accion que se hace, para que sea facil revertir
    cambios y mantener trazabilidad.
+
+## Simulacion de error
+
+Modifique el archivo app.js en la rama main para simular el error, luego mergie main a development
+para traer el error a la rama de desarrollo, de ahi cree una rama "fix/error-appjs".
+Solucione el error en la rama creada, y luego la mergie a development, y development mergie a main
+para tener el error corregido en la rama principal.
