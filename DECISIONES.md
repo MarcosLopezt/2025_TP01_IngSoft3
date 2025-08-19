@@ -16,7 +16,8 @@ estable la rama main y en development se integran las funcionalidades en curso.
 Cree la rama "feature/nueva-funcionalidad".
 Las ramas features nacen desde development y se integran con las diferentes features que se crean
 en development.
-Las ramas hotfix se crean desde main para resolver errores urgentes.
+
+Luego la rama feature/nueva-funcionalidad la mergeamos con development, y development con main, asi quedan los cambios actualizados.
 
 Hice 2 commits atómicos:
 
