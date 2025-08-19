@@ -4,5 +4,3 @@ function saludar() {
 }
 
 saludar();
-
-saludar();
